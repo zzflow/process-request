@@ -16,11 +16,11 @@ const _request = request.defaults({
 /**
  * Process GET
  *      
- *      await request.process("https://www.website.com");
+ *      await request("https://www.website.com");
  * 
  * Process POST
  * 
- *      await request.process(
+ *      await request(
  *          "https://www.website.com/action",
  *          "user=1&save=1"
  *      );
